@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.list-type-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.checkbox-box-style {
+  outline: none;
+}
+
+.label-style {
+  font-size: 17px;
+  color: #f8fafc;
+}

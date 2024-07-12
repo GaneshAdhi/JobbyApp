@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.radio-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.radio-btn {
+  outline: none;
+}
+
+.radio-label {
+  font-size: 17px;
+  color: #f8fafc;
+}

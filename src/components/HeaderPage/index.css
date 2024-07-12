@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+li {
+  list-style: none;
+}
+
+.navbar-main-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c364c;
+  background-size: cover;
+}
+
+.logo-web {
+  height: 35px;
+}
+
+.icon-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-link {
+  font-size: 25px;
+  color: #f1f5f9;
+}
+
+.log-btn-icon {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.icon-card-link-container {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .navbar-main-container {
+    padding: 15px;
+  }
+
+  .logo-web {
+    height: 50px;
+  }
+
+  .icon-card-container {
+    display: none;
+  }
+
+  .icon-card-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+  }
+
+  .link-name-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .name-links {
+    list-style: none;
+    font-size: 20px;
+    color: #cbd5e1;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .logout-button-name {
+    background-color: #6366f1;
+    color: #f8fafc;
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 14px;
+    border-width: 0px;
+    cursor: pointer;
+  }
+}

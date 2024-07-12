@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.job-specific-main-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-loader {
+  align-self: center;
+  margin-top: 30%;
+}
+
+.specific-job-failure-view-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.specific-failure-logo {
+  height: 350px;
+  width: 350px;
+}
+
+.specific-failure-heading {
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.specific-failure-description {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.specific-failure-btn {
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #6366f1;
+  color: #f8fafc;
+}
+
+@media screen and (min-width: 767px) {
+  .specific-loader {
+    margin-top: 10%;
+  }
+
+  .specific-job-failure-view-main-container {
+    margin-top: 2%;
+  }
+}
